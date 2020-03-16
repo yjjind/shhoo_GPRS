@@ -1,0 +1,148 @@
+.page_background {
+  background: #2d2f33;
+}
+
+.page_background_16181C {
+  background: #16181C;
+  min-height: 1250upx;
+  padding: 0px 10px;
+}
+
+.clearBox {
+  zoom:1;
+}
+.clearBox:after {
+  display: block;
+  clear: both;
+  content: "";
+  height: 0px;
+  visibility: hidden;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.sred {
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 50%;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 3px solid #424242;
+  padding-bottom: 3px;
+}
+
+.page-title-box {
+  width: 100%;
+  height: 40px;
+  background: #2E2E2E;
+  padding: 0px 10px;
+}
+.p-title-box {
+  float: left;
+  width: 33%;
+  height: 40px;
+  line-height: 40px;
+}
+.p-t-page-router, .p-title-box-return {
+  height: 40px;
+  padding-right: 20px; 
+  color: #FFFFFF;
+}
+.p-title-box-return {
+  float: left;
+  font-size: 19px;
+  font-weight: bold;
+}
+.p-t-page-router {
+  float: right;
+  font-size: 14px; 
+}
+.p-t-page-router:hover, .p-title-box-return:hover {
+  background: #424242;
+}
+
+/* 弹出框基本样式 */
+/* .dialog-box-background {
+  background: red;
+  width: 100%;
+  min-height: 1250upx;
+  opacity: 0.5;
+} */
+.dialog-box {
+  margin: 0px 10px;
+  background: #2D2F33;
+  border-radius: 8px;
+  box-shadow: 0px 1px 28px 10px #ffffff;
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+}
+.dialog-btn-box {
+  height: 50px;
+}
+.dialog-btn {
+  float: left;
+  width: 50%;
+}
+.d-btn {
+  float: left;
+  color: #ffffff;
+  width: 30px;
+  font-size: 12px;
+  background: #3A3C40;
+  padding: 7px 20px;
+  margin: 10px 0px 0px 36%;
+  border-radius: 5px;
+}
+.d-btn:hover {
+  background: #26354B;
+}
+
+
+
+.font-fff-16px {
+  font-size: 16px; 
+  color: #FFFFFF;
+}
+
+.font-fff-14px {
+  font-size: 14px; 
+  color: #FFFFFF;
+}
+
+.font-ccc-14px {
+  font-size: 14px; 
+  color: #CCCCCC;
+}
+
+.font-fff-12px {
+  font-size: 12px; 
+  color: #FFFFFF;
+}
+.font-ccc-12px {
+  font-size: 12px; 
+  color: #CCCCCC;
+}
+
+.font-color-54BEB6 {
+  color: #54BEB6;
+}
+
+input{  
+  background: none;  
+  outline: none;  
+  border: none;
+  height: 12px;
+  line-height:22px;
+}
+input:focus {
+  border: 1px solid #54BEB6;
+}
