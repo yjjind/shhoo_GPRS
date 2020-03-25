@@ -1,65 +1,91 @@
 {
-	"pages": [
-		{
-		  "path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "尚禾GPRS",
-				"usingComponents": {
-				"van-row": "/static/vant-weapp/row/index",
-				"van-col": "/static/vant-weapp/col/index",
-				"van-radio": "/static/vant-weapp/radio/index",
-				"van-radio-group": "/static/vant-weapp/radio-group/index",
-				"van-button": "/static/vant-weapp/button/index"
-			}
-		  }
-		},
+  "pages": [
     {
-    	"path": "pages/home/Equipment",
-    	"style": {
-    		"navigationBarTitleText": "添加设备",
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "尚禾GPRS",
         "usingComponents": {
+          "van-row": "/static/vant-weapp/row/index",
+          "van-col": "/static/vant-weapp/col/index",
+          "van-button": "/static/vant-weapp/button/index",
+          "van-loading": "/static/vant-weapp/loading/index",
+          "van-popup": "/static/vant-weapp/popup/index",
+          "van-toast": "/static/vant-weapp/toast/index",
+          "van-dialog": "/static/vant-weapp/dialog/index",
+          "van-field": "/static/vant-weapp/field/index"
         }
-    	}
+      }
     },
     {
-    	"path": "pages/home/GroupAdmin",
-    	"style": {
-    		"navigationBarTitleText": "分组管理",
+      "path": "pages/home/MainPage",
+      "style": {
+        "navigationBarTitleText": "尚禾GPRS",
         "usingComponents": {
+          "van-row": "/static/vant-weapp/row/index",
+          "van-col": "/static/vant-weapp/col/index",
+          "van-radio": "/static/vant-weapp/radio/index",
+          "van-radio-group": "/static/vant-weapp/radio-group/index",
+          "van-button": "/static/vant-weapp/button/index",
+          "van-loading": "/static/vant-weapp/loading/index",
+          "van-popup": "/static/vant-weapp/popup/index"
         }
-    	}
+      }
     },
     {
-    	"path": "pages/home/EditEquipment",
-    	"style": {
-    		"navigationBarTitleText": "添加分组",
+      "path": "pages/home/Equipment",
+      "style": {
+        "navigationBarTitleText": "添加设备",
         "usingComponents": {
+          "van-loading": "/static/vant-weapp/loading/index",
+          "van-popup": "/static/vant-weapp/popup/index"
         }
-    	}
+      }
     },
     {
-    	"path": "pages/home/AddFinishEquipment",
-    	"style": {
-    		"navigationBarTitleText": "添加设备",
+      "path": "pages/home/AddFinishEquipment",
+      "style": {
+        "navigationBarTitleText": "添加设备",
         "usingComponents": {
+          "van-loading": "/static/vant-weapp/loading/index",
+          "van-popup": "/static/vant-weapp/popup/index"
         }
-    	}
+      }
+    },
+    {
+      "path": "pages/home/GroupAdmin",
+      "style": {
+        "navigationBarTitleText": "分组管理",
+        "usingComponents": {
+          "van-loading": "/static/vant-weapp/loading/index",
+          "van-popup": "/static/vant-weapp/popup/index"
+        }
+      }
+    },
+    {
+      "path": "pages/home/EditEquipment",
+      "style": {
+        "navigationBarTitleText": "添加分组",
+        "usingComponents": {
+          "van-loading": "/static/vant-weapp/loading/index",
+          "van-popup": "/static/vant-weapp/popup/index"
+        }
+      }
     }
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "尚禾GPRS",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"condition" : {
-		"current": 0,
-		"list": [
-			{
-				"name": "",
-				"path": "",
-				"query": ""
-			}
-		]
-	}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "尚禾GPRS",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#16181C"
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "",
+        "path": "",
+        "query": ""
+      }
+    ]
+  }
 }
